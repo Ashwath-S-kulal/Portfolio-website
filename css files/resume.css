@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(222, 235, 235, 0.2);
+}
+hr{
+    border: 2px solid rgb(120, 205, 242);
+    border-radius: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1a1a2e, #1a4a8d, #1a1a2e);
+    color: white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: left;
+}
+.btn{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(34, 85, 224, 0.647);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px 30px 20px 100px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: green;
+    transition: 0.3s;
+}
+.card1{
+    background-color: rgb(207, 211, 215, 0.6);
+    margin: 30px 10px 0 30px;
+    border-radius: 10px;
+}
+.resume{
+    width: 650px;
+    display: flex;
+    justify-self: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 40px 0 10px 0;
+}
+.mrksbtn{
+    background-color: rgb(46, 4, 74);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+    display: flex;
+    justify-self:center;
+    margin: 50px;
+}
+.mrksbtn:hover{
+    transform: scale(1.05);
+    background-color: rgb(8, 89, 8);
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 1015px) {
+    .btn{
+        height: 30px;
+        width: 85px;
+        border-radius: 5px;
+        margin: 20px 15px 20px 15px;
+    }
+    .resume{
+        width: 350px;
+        display: flex;
+        justify-self: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        margin: 40px 0 40px 0;
+    }
+    .mrksbtn{
+        background-color: rgb(46, 4, 74);
+        color: white;
+        padding: 5px 20px 5px 20px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        transition: 0.2s;
+        display: flex;
+        justify-self: center;
+    }
+
+}

@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(222, 235, 235, 0.2);
+}
+hr{
+    border: 2px solid rgb(120, 205, 242);
+    border-radius: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1a1a2e, #1a4a8d, #1a1a2e);
+    color: white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: left;
+}
+.btn{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(34, 85, 224, 0.647);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px 30px 20px 100px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: green;
+    transition: 0.3s;
+}
+.table1{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+    color: black;
+}
+.table2{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+    color: black;
+}
+th,td{
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black;
+}
+
+.tbl tr:nth-child(even){
+    background-color: #5aafd3;
+}
+.tbl tr:nth-child(odd){
+    background-color: #b9c0c2;
+}
+.tbl tr:hover {
+    background-color: #1dad65;
+}
+.tbl{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tableQualification{
+    border-collapse: collapse;
+    display: flex;
+    justify-self: center;
+    text-align: left;
+    color: black;
+}
+.eduaQ{
+    background-color: hsla(240, 20%, 57%, 0.5);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.eduaQ >h3{
+    padding-bottom: 20px;
+}
+.head{
+    background-color: #5aafd3;
+}
+.body{
+    background-color: #b7bec0;
+}
+
+.body:hover{
+    background-color: #1dad65;
+}
+.tbl-head{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 10px 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.imageash{
+    width: 230px;
+    border: 2px solid black;
+}
+.cover{
+    color: rgba(24, 8, 36, 0.974);
+    background-image: linear-gradient(rgba(79, 108, 195, 0.918), rgba(5, 12, 55, 0.752));
+    font-family: cursive;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 200px;
+    font-size: 60px;
+}
+#imagediv{
+    width:250px; 
+    height: 300px;
+    background-image: linear-gradient(rgba(79, 108, 195, 0.918), rgba(5, 12, 55, 0.752));
+}
+table,th,td{
+    border-radius: 13px;
+}
+
+
+@media (max-width: 1015px) {
+    .tbl{
+        flex-direction: column;
+        width: 100%;
+    }
+    .table1{
+        margin: 0px;
+        width: 100%;
+    }
+    .table2{
+        margin: 0px;
+        width: 100%;
+    }
+    .tableQualification{
+        width:100%;
+        text-align: center;
+        padding: 0px;
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .th{
+        padding: 10px 0px 10px 0px;
+        min-height: 500px;
+    }
+    .cover{
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    .btn{
+        height: 30px;
+        width: 85px;
+        border-radius: 5px;
+        margin: 20px 15px 20px 15px;
+    }
+    .imageash{
+        width: 150px;
+        border: 5px solid black;
+        border-style: outset;
+        padding: 0%;
+        margin: 0%;
+    }
+    #imagediv{
+        width:0px; 
+        height: 0px;
+    }
+    .cover{
+        text-align: center;
+    }
+    .tbl{
+        font-size: 13px;
+    }
+    th{
+        width: 140px;
+    }
+    .table1{
+        margin-bottom: 0px;
+    }
+    .table2{
+        margin-top: 0px;
+    }
+    .tbl tr:nth-child(even){
+        background-color: #5d8394;
+    }
+    .tbl tr:nth-child(odd){
+        background-color: #b7bec0;
+    }
+    /* Remove the bottom border of the first table */
+    .table1 tr:last-child td {
+        border-bottom: none;
+    }
+    .table1 tr:last-child th {
+        border-bottom: none;
+    }
+    .cover{
+        background-image: linear-gradient(rgba(188, 200, 237, 0.918), rgb(33, 101, 119));
+    }
+    #imagediv{
+        background-image: linear-gradient(rgba(188, 200, 237, 0.918), rgb(33, 101, 119));
+    }
+    
+}
