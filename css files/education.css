@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(222, 235, 235, 0.2);
+}
+hr{
+    border: 2px solid rgb(120, 205, 242);
+    border-radius: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1a1a2e, #1a4a8d, #1a1a2e);
+    color: white;
+}
+.btn{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(34, 85, 224, 0.647);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px 30px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.card{  
+    background-color: rgba(211, 209, 213, 0.164);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+section > div{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+section > div > h1{
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+section > div > p{
+    padding-bottom: 25px;
+    font-family:cursive;
+}
+h1{
+    color: rgb(21, 21, 24);
+}
+p{
+    line-height: 28px;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: green;
+    transition: 0.3s;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    background-color: rgba(124, 109, 165, 0.5);
+    padding: 20px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.mrksbtn{
+    background-color: rgb(46, 4, 74);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+    font-family: cursive;
+}
+.mrksbtn:hover{
+    transform: scale(1.05);
+    background-color: rgb(8, 89, 8);
+}
+h5{
+    color: rgb(251, 248, 255);
+    font-family:cursive;
+}
+
+@media (max-width: 1015px) {
+    .btn{
+        height: 30px;
+        width: 85px;
+        border-radius: 5px;
+        margin: 20px 15px 20px 15px;
+    }
+    .card-body{
+        gap: 20px;
+    }
+    p{
+        padding:0px 20px 0px 20px;
+    }
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(222, 235, 235, 0.2);
+}
+hr{
+    border: 2px solid rgb(120, 205, 242);
+    border-radius: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1a1a2e, #1a4a8d, #1a1a2e);
+    color: white;
+}
+.btn{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(34, 85, 224, 0.647);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px 30px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+
+section{
+    text-align: center;
+}
+section > h2{
+    padding-bottom: 25px;
+    color: black;
+}
+.skills-section {
+    background-color: rgba(24, 130, 200, 0.449);
+    margin: 30px;
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.skills-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #233554;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition:  0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.skill h3 {
+    color: #64ffda;
+}
+
+.skill p {
+    font-size: 14px;
+    color: #8892b0;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: green;
+    transition: 0.3s;
+}
+
+.certificate-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    line-height: 20px;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.certificate{
+    background: #233554;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.certificate:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.maindiv{
+    background-color: rgba(24, 130, 200, 0.449);
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.maindiv > h1{
+    padding-bottom: 40px;
+    color: black;
+}
+.h3{
+    color: #64ffda;
+}
+a{
+    text-decoration: none;
+}
+.comment{
+    text-align: right;
+    padding: 10px;
+    font-family:cursive;
+    font-size: 13px;
+
+}
+
+@media (max-width: 1015px) {
+    .btn{
+        height: 30px;
+        width: 85px;
+        border-radius: 5px;
+        margin: 20px 15px 20px 15px;
+    }
+    .comment{
+        text-align: center;
+        padding: 10px;
+        font-family:monospace;
+        font-size: 8px;
+    }
+    
+}
